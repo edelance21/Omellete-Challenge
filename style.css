@@ -1,0 +1,103 @@
+html {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 600, 700;
+    font-style: normal;
+}
+
+body {
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    margin: 0;
+}
+
+
+.articulos {
+    background:hsl(0, 0%, 100%);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px;
+    padding: 2rem;
+    margin: 0;
+    display: block;
+}
+
+.imagen {
+    border-radius: 8px;
+    width: 95%;
+    height: auto;
+    display: block;
+}
+
+h2 {
+    color:  hsl(14, 45%, 36%);
+}
+
+aside {
+    background: hsl(330, 100%, 98%);
+    width: 95%;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.preparationtime {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.lista1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.lista2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.resaltado {
+    color: hsl(30, 10%, 34%);
+}
+
+p {
+    font-size: 16px;
+}
+
+.lista1 li {
+    gap: 10rem;
+    box-sizing: border-box;
+}
+
+.lista2 li {
+    gap: 10rem;
+    box-sizing: border-box;
+}
+
+.tabla {
+    width: 65%;
+}
+
+td:nth-child(2) {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);;
+}
+
+#titulo{
+    font-weight: 700;
+}
+
+.subtitulos {
+    font-weight: 600;
+}
+
+.subtitulos1 {
+    font-weight: 600;
+}
+ 
