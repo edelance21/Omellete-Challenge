@@ -82,6 +82,7 @@ p {
 
 .tabla {
     width: 65%;
+    border-collapse: collapse;
 }
 
 td:nth-child(2) {
@@ -100,4 +101,7 @@ td:nth-child(2) {
 .subtitulos1 {
     font-weight: 600;
 }
- 
+
+td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.426);
+}
